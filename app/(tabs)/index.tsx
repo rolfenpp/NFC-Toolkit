@@ -1,17 +1,11 @@
-import { router } from 'expo-router';
-import { StyleSheet, Button } from 'react-native';
+import { StyleSheet } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 
 export default function HomeScreen() {
-  const handleLogin = () => {
-    router.push('/routes/scan');
-  };
-
   return (
     <ThemedView style={styles.container}>
-      <ThemedText style={styles.title}>Welcome to Techtonic</ThemedText>
-      <Button title="Login" onPress={handleLogin} />
+      <ThemedText style={styles.title}>Use the tabs below to scan or write NFC tags</ThemedText>
     </ThemedView>
   );
 }
@@ -26,6 +20,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
-    marginBottom: 20,
+    marginBottom: 10,
+  },
+  subtitle: {
+    fontSize: 16,
+    textAlign: 'center',
   },
 });
