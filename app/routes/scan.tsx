@@ -95,7 +95,7 @@ export default function ScanScreen() {
       } else {
         await stopScanning();
         Alert.alert('Error', 'No NDEF message found on tag');
-      }
+      }               
     } catch (ex) {
       if (isScanning) {
         await stopScanning();
