@@ -1,23 +1,18 @@
-# Dependencies
 node_modules/
 .pnp/
 .pnp.js
 
-# Expo
 .expo/
 dist/
 web-build/
 expo-env.d.ts
 
-# Testing
 coverage/
 
-# Production & Build
 build/
 android/app/build/
 ios/build/
 
-# Native
 *.orig.*
 *.jks
 *.p8
@@ -28,34 +23,28 @@ ios/build/
 *.aab
 *.ipa
 
-# Metro
 .metro-health-check*
 .metro
 
-# Debug
 npm-debug.*
 yarn-debug.*
 yarn-error.*
 .pnpm-debug.log*
 
-# Environment files
 .env
 .env*.local
 .env.development
 .env.test
 .env.production
 
-# TypeScript
 *.tsbuildinfo
 
-# IDE - VSCode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 
-# IDE - IntelliJ/Android Studio
 .idea/
 *.iml
 .gradle/
@@ -64,14 +53,12 @@ captures/
 .cxx/
 *.hprof
 
-# IDE - Xcode
 ios/*.xcodeproj/*
 !ios/*.xcodeproj/project.pbxproj
 !ios/*.xcodeproj/xcshareddata/
 !ios/*.xcworkspace/contents.xcworkspacedata
 **/ios/.xcode.env.local
 
-# OS generated files
 .DS_Store
 .DS_Store?
 ._*
@@ -81,21 +68,17 @@ ehthumbs.db
 Thumbs.db
 *.pem
 
-# Temporary files
 *.swp
 *.swo
 *.tmp
 *.bak
 
-# Bundle artifacts
 *.jsbundle
 *.map
 
-# CocoaPods
 ios/Pods/
 ios/Podfile.lock
 
-# Android specific
 android/app/debug/
 android/app/release/
 android/app/*.keystore
