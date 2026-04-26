@@ -9,7 +9,6 @@ export default function LoginScreen() {
   const [password, setPassword] = useState('');
 
   const handleLogin = () => {
-    // Navigate to the tabs layout without validation for now
     router.replace('/routes/scan');
   };
 
