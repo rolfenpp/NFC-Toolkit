@@ -11,8 +11,10 @@ Built with React Native and Expo for cross-platform support.
 
 Design mockups made in Figma.
 
-![Scan equipment](docs/design-mockups/scan-equipment.png)
-
-![Log in: Techtonic](docs/design-mockups/login.png)
-
-![Home](docs/design-mockups/home-dashboard.png)
+<p align="center">
+  <img src="docs/design-mockups/scan-equipment.png" alt="Scan equipment" width="32%" />
+  &nbsp;
+  <img src="docs/design-mockups/login.png" alt="Log in: Techtonic" width="32%" />
+  &nbsp;
+  <img src="docs/design-mockups/home-dashboard.png" alt="Home" width="32%" />
+</p>
