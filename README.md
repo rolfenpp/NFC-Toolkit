@@ -6,3 +6,13 @@ This project is an NFC toolkit application designed for reading and writing data
 - **Write to NFC tags:** Easily write custom data to compatible NFC tags.
 
 Built with React Native and Expo for cross-platform support.
+
+## Design mockups
+
+Design mockups made in Figma.
+
+![Scan equipment](docs/design-mockups/scan-equipment.png)
+
+![Log in: Techtonic](docs/design-mockups/login.png)
+
+![Home](docs/design-mockups/home-dashboard.png)
