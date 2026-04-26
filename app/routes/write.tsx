@@ -52,7 +52,7 @@ export default function WriteNFCScreen() {
 
     checkNfc();
     return () => {
-      NfcManager.cancelTechnologyRequest().catch(() => { /* do nothing */ });
+      NfcManager.cancelTechnologyRequest().catch(() => {});
     };
   }, []);
 
@@ -93,7 +93,7 @@ export default function WriteNFCScreen() {
       Alert.alert('Error', message);
     } finally {
       setIsWriting(false);
-      NfcManager.cancelTechnologyRequest().catch(() => { /* do nothing */ });
+      NfcManager.cancelTechnologyRequest().catch(() => {});
     }
   };
 
